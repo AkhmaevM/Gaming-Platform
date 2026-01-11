@@ -1,0 +1,50 @@
+.header {
+  padding: 50px 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 36px;
+    align-items: center;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 88px;
+    align-items: center;
+
+    &-item {
+      display: inline-block;
+    }
+
+    &-item:not(.active):not(.btn) a:hover {
+      border-bottom: 5px solid #dc7000;
+    }
+
+    &-item > a {
+      color: #fff;
+    }
+  }
+
+  &__btn {
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+
+    border-radius: 6px;
+    width: 131px;
+    height: 41px;
+    background: #fa9021;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
