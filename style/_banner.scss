@@ -1,0 +1,50 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 157px;
+
+  &__title {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 188%;
+    text-align: center;
+    color: #fff;
+    width: 826px;
+    padding-bottom: 67px;
+    margin-left: 25%;
+    margin-right: 25%;
+
+  }
+
+  &__content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__subtitle {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 188%;
+    color: #fff;
+
+    padding-bottom: 32px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    color: #fff;
+
+    width: 545px;
+
+    padding-bottom: 46px;
+  }
+
+  &__img {
+    border-radius: 5px;
+    // width: 100%;
+  
+  }
+}

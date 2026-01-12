@@ -1,0 +1,58 @@
+.trends {
+  display: flex;
+  flex-direction: column;
+  row-gap: 57px;
+  padding-bottom: 130px; 
+
+  &__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__btn {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 188%;
+    color: #fff;
+
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 10px;
+    width: 139px;
+    height: 57px;
+    cursor: pointer;
+    margin: 10px 30px;
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: row;
+    column-gap: 47px;
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: center;
+
+    &-followers {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      align-content: center;
+      justify-content: space-between;
+
+      width: 170px;
+      height: 41px;
+
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 188%;
+      color: #fff;
+    }
+
+   
+  }
+}

@@ -2,7 +2,7 @@
   padding: 50px 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .header__nav {
   display: flex;
