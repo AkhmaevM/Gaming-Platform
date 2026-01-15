@@ -28,18 +28,18 @@
 
     &__bottom {
         
-        height: 107px;
-        width: 100%;
+       
         display: flex;
         flex-direction: row;
         column-gap: 42px;
+        justify-content: space-between;
         align-items: center;
         border-radius: 15px;
         width: 1170px;
         height: 189px;
         background: #1c140f;
         background-size: 100vw;
-        // padding: 40px 50px;
+        padding: 40px 50px;
        
 
     }

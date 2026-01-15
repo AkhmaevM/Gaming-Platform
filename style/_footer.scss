@@ -1,0 +1,103 @@
+.footer {
+    background-color: #070707;
+    padding: 80px 50px 0px 50px ;
+
+
+    &__main {
+        display: flex;
+        flex-direction: row;
+        column-gap: 100px;
+        justify-content: space-evenly;
+        width: 100%;
+        border-bottom: 0.80px solid #d2d2d2;
+        padding-bottom: 53px;
+    }
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__logo {
+        font-weight: 500;
+        font-size: 17px;
+        color: #fff;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        width: 372px;
+    }
+
+    &__tag {
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+    }
+
+    &__about {
+        font-weight: 500;
+        font-size: 17px;
+        color: #fff;
+    }
+
+    &__links {
+        padding-top: 15px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 186%;
+        color: #fff;
+        list-style-type: none;
+    }
+
+    &__contact {
+        font-weight: 500;
+        font-size: 17px;
+        color: #fff;
+    }
+
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        row-gap: 11px;
+        padding-top: 15px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+
+        list-style-type: none;
+    }
+
+    &__social {
+        display: flex;
+        flex-direction: row;
+        column-gap: 16px;
+        align-items: flex-end;
+    }
+
+    &__icon:hover {
+        cursor: pointer;
+    }
+
+    &__rights {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &-text {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 191%;
+            color: #fff;
+            padding-top: 29px;
+            padding-bottom: 29px;
+        }
+    }
+
+}

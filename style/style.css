@@ -6,7 +6,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
   color: white;
 }
 
@@ -347,18 +346,18 @@ img {
   color: #fff;
 }
 .form__bottom {
-  height: 107px;
-  width: 100%;
   display: flex;
   flex-direction: row;
   -moz-column-gap: 42px;
        column-gap: 42px;
+  justify-content: space-between;
   align-items: center;
   border-radius: 15px;
   width: 1170px;
   height: 189px;
   background: #1c140f;
   background-size: 100vw;
+  padding: 40px 50px;
 }
 .form__left {
   display: flex;
@@ -419,4 +418,93 @@ img {
   color: #fff;
   border: 0;
   cursor: pointer;
+}
+
+.footer {
+  background-color: #070707;
+  padding: 80px 50px 0px 50px;
+}
+.footer__main {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+  justify-content: space-evenly;
+  width: 100%;
+  border-bottom: 0.8px solid #d2d2d2;
+  padding-bottom: 53px;
+}
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+.footer__logo {
+  font-weight: 500;
+  font-size: 17px;
+  color: #fff;
+}
+.footer__text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  width: 372px;
+}
+.footer__tag {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+.footer__about {
+  font-weight: 500;
+  font-size: 17px;
+  color: #fff;
+}
+.footer__links {
+  padding-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 186%;
+  color: #fff;
+  list-style-type: none;
+}
+.footer__contact {
+  font-weight: 500;
+  font-size: 17px;
+  color: #fff;
+}
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 11px;
+  padding-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  list-style-type: none;
+}
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  align-items: flex-end;
+}
+.footer__icon:hover {
+  cursor: pointer;
+}
+.footer__rights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer__rights-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 191%;
+  color: #fff;
+  padding-top: 29px;
+  padding-bottom: 29px;
 }/*# sourceMappingURL=style.css.map */
