@@ -42,12 +42,17 @@ img {
   margin: 0 auto;
 }
 
+// modules
+@import "./modules/header";
+@import "./modules/form";
+@import "./modules/footer";
 
-@import "header";
-@import "hero";
-@import "trends";
-@import "banner";
-@import "studios";
-@import "projects";
-@import "form";
-@import "footer";
+// home styles
+@import "./home/hero";
+@import "./home/trends";
+@import "./home/banner";
+@import "./home/studios";
+@import "./home/projects";
+
+
+//about-us styles
