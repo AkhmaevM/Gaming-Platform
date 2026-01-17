@@ -1,0 +1,1 @@
+Gaming Platform landing page
