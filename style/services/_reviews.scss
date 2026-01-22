@@ -1,0 +1,85 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    &__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 143%;
+        text-align: center;
+        color: #fff;
+
+        width: 447px;
+    }
+
+    &__subtext {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 188%;
+        text-align: center;
+        color: #fff;
+        width: 555px;
+    }
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+
+
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+    &__top {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &__avatar {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-right: 77px;
+    }
+
+    &__author {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 167%;
+        color: #fff;
+    }
+
+    &__location {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 214%;
+        color: #4f5665;
+    }
+
+    &__rating {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 188%;
+        color: #fff;
+    }
+}
