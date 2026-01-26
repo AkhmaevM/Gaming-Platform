@@ -72,7 +72,8 @@ img {
 }
 
 .form {
-  margin-bottom: 163px;
+  padding-bottom: 144px;
+  padding-top: 127px;
   display: flex;
   flex-direction: column;
   row-gap: 74px;
@@ -105,7 +106,7 @@ img {
   border-radius: 15px;
   width: 1170px;
   height: 189px;
-  background: #1c140f;
+  background: #1B1B1B;
   background-size: 100vw;
   padding: 40px 50px;
 }
@@ -868,13 +869,13 @@ img {
 
 .reviews {
   padding: 88px 109px 60px 109px;
-  margin-bottom: 187px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #1C140F;
 }
 .reviews__top {
+  margin-bottom: 67px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -910,10 +911,16 @@ img {
        column-gap: 20px;
   align-items: center;
 }
-.reviews__arrow {
+.reviews__arrow-svg {
+  padding: 20px;
+  border: 2px solid #dc7000;
+  border-radius: 100%;
+  fill: #dc7000;
+}
+.reviews__arrow-svg:hover {
+  background-color: #dc7000;
   cursor: pointer;
-  width: 60px;
-  height: 60px;
+  fill: #fff;
 }
 .reviews__current {
   display: flex;
@@ -1003,12 +1010,4 @@ img {
   line-height: 188%;
   color: #fff;
   width: 340px;
-}
-.review__arrow-svg {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.review__arrow {
-  content: url("../../img/Button/Button/act/right.svg");
 }/*# sourceMappingURL=style.css.map */

@@ -1,12 +1,12 @@
 .reviews {
     padding: 88px 109px 60px 109px;
-    margin-bottom: 187px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #1C140F;
 
     &__top {
+        margin-bottom: 67px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -34,11 +34,10 @@
 
     &__bottom {
         width: 1300px;
+
         display: flex;
         flex-direction: row;
-
         margin-top: 60px;
-
         justify-content: space-between;
 
     }
@@ -48,26 +47,24 @@
         flex-direction: row;
         column-gap: 20px;
         align-items: center;
+    }
 
+    &__arrow-svg {
+        padding: 20px;
+        border: 2px solid #dc7000;
+        border-radius: 100%;
+
+        fill: #dc7000;
+
+        &:hover {
+            background-color: #dc7000;
+            cursor: pointer;
+            fill:#fff;
+        };
 
     }
 
-    &__arrow {
-
-        cursor: pointer;
-        width: 60px;
-        height: 60px;
-
-
-
-    }
-
-    // &__arrow-right {
-    //     background: url('../img/Button/nonact/right.svg');
-    //     width: 60px;
-    //     height: 60px;
-    //     border: 0;
-    // }
+        
 
     &__current {
         display: flex;
@@ -99,8 +96,6 @@
     display: flex;
     flex-direction: row;
     column-gap: 20px;
-
-
 }
 
 .review {
@@ -177,13 +172,4 @@
         width: 340px;
     }
 
-    &__arrow-svg {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    &__arrow {
-        content: url('../../img/Button/Button/act/right.svg');
-    }
 }

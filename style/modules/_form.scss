@@ -1,12 +1,15 @@
 .form {
-    margin-bottom: 163px;
+  
+    
+    padding-bottom: 144px;
+    padding-top: 127px;
     display: flex;
     flex-direction: column;
     row-gap: 74px;
-
     align-items: flex-start;
 
     &__top {
+      
         display: flex;
         flex-direction: column;
         row-gap: 32px;
@@ -27,7 +30,7 @@
     }
 
     &__bottom {
-        
+
        
         display: flex;
         flex-direction: row;
@@ -37,7 +40,7 @@
         border-radius: 15px;
         width: 1170px;
         height: 189px;
-        background: #1c140f;
+        background: #1B1B1B;
         background-size: 100vw;
         padding: 40px 50px;
        
