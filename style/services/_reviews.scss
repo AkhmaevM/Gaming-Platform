@@ -1,6 +1,6 @@
 .reviews {
     padding: 88px 109px 60px 109px;
-
+    margin-bottom: 187px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,34 +32,67 @@
         width: 555px;
     }
 
-    &__bottom{
+    &__bottom {
         width: 1300px;
         display: flex;
         flex-direction: row;
 
-        margin-top:60px;
-      
+        margin-top: 60px;
+
         justify-content: space-between;
 
     }
 
-    &__arrows{
+    &__arrows {
         display: flex;
         flex-direction: row;
         column-gap: 20px;
         align-items: center;
 
-        
+
     }
 
-    &__arrow{
+    &__arrow {
+
         cursor: pointer;
-        &:hover{
-            stroke: blue;
-            fill: #fff;
+        width: 60px;
+        height: 60px;
+
+
+
+    }
+
+    // &__arrow-right {
+    //     background: url('../img/Button/nonact/right.svg');
+    //     width: 60px;
+    //     height: 60px;
+    //     border: 0;
+    // }
+
+    &__current {
+        display: flex;
+        flex-direction: row;
+        column-gap: 15px;
+        align-items: center;
+    }
+
+    &__bar {
+        border-radius: 100%;
+        background-color: #dde0e4;
+        width: 15px;
+        height: 15px;
+
+        &:hover {
+            background-color: #dc7000;
+
+
+            width: 30px;
+            height: 15px;
+            border-radius: 15px;
+            transition: all 0.2s ease-in;
+            cursor: pointer;
         }
     }
-
 }
 
 .slider {
@@ -144,13 +177,13 @@
         width: 340px;
     }
 
-    &__arrow-svg{
+    &__arrow-svg {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    &__arrow{
+    &__arrow {
         content: url('../../img/Button/Button/act/right.svg');
     }
 }

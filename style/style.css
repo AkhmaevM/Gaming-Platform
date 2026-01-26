@@ -568,18 +568,18 @@ img {
   justify-content: space-around;
 }
 
-.reviews {
+.comments {
   display: flex;
   flex-direction: column;
   row-gap: 63px;
 }
-.reviews__title {
+.comments__title {
   font-weight: 600;
   font-size: 25px;
   line-height: 180%;
   color: #fff;
 }
-.reviews__cards {
+.comments__cards {
   display: flex;
   flex-direction: row;
   -moz-column-gap: 43px;
@@ -587,7 +587,7 @@ img {
   justify-content: space-evenly;
   padding-bottom: 147px;
 }
-.reviews__card {
+.comments__card {
   box-shadow: 0 4px 94px 0 rgba(0, 0, 0, 0.15);
   background: #1c140f;
   border-radius: 20px;
@@ -597,7 +597,7 @@ img {
   padding: 64px 37px;
   row-gap: 17px;
 }
-.reviews__category {
+.comments__category {
   border-radius: 8px;
   padding-top: 7px;
   padding-bottom: 7px;
@@ -608,22 +608,22 @@ img {
   line-height: 188%;
   color: #fff;
 }
-.reviews__category--first {
+.comments__category--first {
   background: rgba(176, 0, 220, 0.11);
 }
-.reviews__category--second {
+.comments__category--second {
   background: rgba(220, 66, 0, 0.11);
 }
-.reviews__category--last {
+.comments__category--last {
   background: rgba(0, 220, 141, 0.11);
 }
-.reviews__subtitle {
+.comments__subtitle {
   font-weight: 600;
   font-size: 20px;
   line-height: 188%;
   color: #fff;
 }
-.reviews__text {
+.comments__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 188%;
@@ -670,7 +670,7 @@ img {
   line-height: 203%;
   color: #fff;
 }
-.team__posotion {
+.team__position {
   font-weight: 300;
   font-size: 16px;
   line-height: 203%;
@@ -868,6 +868,7 @@ img {
 
 .reviews {
   padding: 88px 109px 60px 109px;
+  margin-bottom: 187px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -911,10 +912,29 @@ img {
 }
 .reviews__arrow {
   cursor: pointer;
+  width: 60px;
+  height: 60px;
 }
-.reviews__arrow:hover {
-  stroke: blue;
-  fill: #fff;
+.reviews__current {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  align-items: center;
+}
+.reviews__bar {
+  border-radius: 100%;
+  background-color: #dde0e4;
+  width: 15px;
+  height: 15px;
+}
+.reviews__bar:hover {
+  background-color: #dc7000;
+  width: 30px;
+  height: 15px;
+  border-radius: 15px;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
 }
 
 .slider {
