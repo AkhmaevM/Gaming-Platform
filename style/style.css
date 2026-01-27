@@ -63,9 +63,8 @@ img {
   font-size: 13px;
   color: #fff;
   border-radius: 6px;
-  width: 131px;
-  height: 41px;
   background: #fa9021;
+  padding: 10px 27px;
 }
 .header__btn:hover {
   cursor: pointer;
@@ -1043,6 +1042,7 @@ img {
   flex-direction: row;
   -moz-column-gap: 72px;
        column-gap: 72px;
+  justify-content: space-between;
 }
 .news__main {
   display: flex;
@@ -1136,6 +1136,18 @@ img {
   line-height: 187%;
   color: #fff;
   cursor: pointer;
+}
+.news__btn--small[data-background=blue] {
+  background-color: #2351F5;
+}
+.news__btn--small[data-background=orange] {
+  background-color: #FF7C32;
+}
+.news__btn--small[data-background=green] {
+  background-color: #23A54F;
+}
+.news__btn--small[data-background=violet] {
+  background-color: #9921C3;
 }
 .news__timer--small {
   font-weight: 400;
