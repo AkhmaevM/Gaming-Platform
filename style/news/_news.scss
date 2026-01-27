@@ -1,0 +1,170 @@
+.news {
+    display: flex;
+    flex-direction: row;
+    column-gap: 72px;
+
+    &__main {
+        display: flex;
+        flex-direction: column;
+        row-gap: 90px;
+    }
+
+    ;
+
+    &__card--big {
+
+        &:last-child {
+            border-top: 0.70px solid #a5a5a5;
+            padding-top: 90px;
+        }
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    ;
+
+    &__banner--big {
+        border-radius: 20px;
+        width: 587px;
+        height: 295px;
+
+        margin-bottom: 21px;
+    }
+
+    ;
+
+    &__wrapper--big {
+
+
+
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+
+        align-items: center;
+
+        margin-bottom: 21px;
+
+    }
+
+    ;
+
+    &__btn--big {
+        width: 164px;
+        height: 48px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 187%;
+        color: #fffcfc;
+        background: #2351f5;
+        border: 0;
+        cursor: pointer;
+
+    }
+
+    ;
+
+    &__timer--big {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 187%;
+        color: #fff
+    }
+
+    ;
+
+    &__subtitle--big {
+        font-weight: 600;
+        font-size: 30px;
+        color: #fff;
+        width: 575px;
+    }
+
+    ;
+
+    &__text--big {
+        margin-top: 32px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 208%;
+        color: #fff;
+
+        width: 529px;
+    }
+
+    ;
+
+
+    //sidebar
+
+    &__sidebar {
+        display: flex;
+        flex-direction: column;
+        row-gap: 60px;
+    }
+
+    ;
+
+
+    &__card--small {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        column-gap: 19px;
+    }
+
+    ;
+
+    &__banner--small {
+        border-radius: 20px;
+        width: 195px;
+        height: 183px;
+    }
+
+    ;
+
+
+    &__wrapper--small {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 16px;
+        margin-bottom: 23px;
+    }
+
+    ;
+
+
+    &__btn--small {
+
+        background-color: #FF8484;
+
+        width: 137px;
+        height: 39px;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 187%;
+        color: #fff;
+
+        cursor: pointer;
+    }
+
+    ;
+
+    &__timer--small {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 187%;
+        color: #fff;
+    };
+
+    &__subtitle--small {
+        width: 392px;
+        font-weight: 600;
+        font-size: 23px;
+        color: #fff;
+    }
+}

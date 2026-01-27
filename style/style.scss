@@ -46,6 +46,7 @@ img {
 @import "./modules/header";
 @import "./modules/form";
 @import "./modules/footer";
+@import "./modules//intro";
 
 // home styles
 @import "./home/hero";
@@ -59,10 +60,14 @@ img {
 @import "./about-us/top";
 @import "./about-us/comments";
 @import "./about-us/team";
-@import "./about-us/news";  
+@import "./about-us/updates";  
 @import "./about-us/form-about";
 
 //services styles
-@import "./services/intro";
+
 @import "./services/feed";
-@import "./services/reviews"
+@import "./services/reviews";
+
+
+//news styles
+@import "./news/news";

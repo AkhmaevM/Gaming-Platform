@@ -48,6 +48,34 @@
         color: #fff;
     }
 
+    &__inputWrapper {
+        width: 400px;
+        border-radius: 10px;
+        background-color: #1C140F;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 19px;
+        padding: 9px 25px;
+
+        margin-top: 74px;
+        margin-bottom: 103px;
+    }
+
+    &__input {
+        background-color: #1C140F;
+        width: 350px;
+        border: 0;
+        outline: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 189%;
+        color: #fff;
+
+        &-icon{
+            cursor: pointer;
+        }
+    }
 }
 
 .stats {
@@ -66,13 +94,13 @@
         width: 200px;
         column-gap: 36px;
         border-right: 2px solid #eeeff2;
-        padding-right:118px; 
+        padding-right: 118px;
         padding-left: 91px;
-      
+
         justify-content: center;
         align-items: center;
 
-        &:last-child{
+        &:last-child {
             border-right: 0px;
         }
     }
