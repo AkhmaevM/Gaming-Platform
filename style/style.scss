@@ -19,6 +19,11 @@ img {
   max-width: 100%;
 }
 
+button{
+  cursor: pointer;
+  border: 0;
+}
+
 .wrapper {
   background: -webkit-linear-gradient(
     90deg,
@@ -71,3 +76,6 @@ img {
 
 //news styles
 @import "./news/news";
+
+//contacts style
+@import "../style/contacts/feedback"

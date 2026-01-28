@@ -37,6 +37,10 @@
     row-gap: 25px;
     align-items: center;
 
+    &:hover{
+      cursor: pointer;
+    }
+
     &-followers {
       display: flex;
       flex-direction: row;
